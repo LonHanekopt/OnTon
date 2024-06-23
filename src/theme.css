@@ -11,11 +11,18 @@
     --card-hover: #00747c;
     --card-border: #000;
 
+    --card-light: #052d33;
+    --card-light-hover: #024145;
+    --card-light-border: #000;
+
     --aqua: rgb(7, 204, 231);
     --cyan: rgb(47 181 208);
 
     --text-gradient: linear-gradient(90deg, rgba(11, 129, 255, 1) 0%, rgba(7, 201, 255, 1) 74%, rgba(0, 218, 255, 1) 100%);
     --text-gradient-variant: linear-gradient(90deg, rgba(62, 155, 255, 1) 0%, rgba(76, 229, 255, 1) 100%);
+    --text-gradient-variant2: linear-gradient(90deg, rgb(62, 255, 162) 0%, rgb(76, 255, 109) 100%);
+
+    --switcher-gradient: linear-gradient(90deg, rgba(62, 155, 255, 0.7) 0%, rgba(76, 229, 255, 0.7) 100%);
 
 }
 
@@ -31,6 +38,10 @@
 
 .gradient-text.variant {
     background-image: var(--text-gradient-variant);
+}
+
+.gradient-text.variant2 {
+    background-image: var(--text-gradient-variant2);
 }
 
 #app {

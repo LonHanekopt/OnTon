@@ -12,43 +12,36 @@
                 <div class="item">
                     <div class="photo"><img src="@/assets/geva.png" alt="profile"></div>
                     <div class="content">
-                        <h1 class="gradient-text">GEVA</h1>
+                        <h1 class="gradient-text">Gevorg B.</h1>
                         <h2>{{$t('Front End Design')}}</h2>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="photo"><img src="@/assets/shepel.jpg" alt="profile"></div>
+                    <div class="content">
+                        <h1 class="gradient-text">{{$t('Oleksandr')}}</h1>
+                        <h2>{{$t('CEO')}}</h2>
                     </div>
                 </div>
                 <div class="item">
                     <div class="photo"><img src="@/assets/sergio.jpg" alt="profile"></div>
                     <div class="content">
                         <h1 class="gradient-text">{{$t('Sergei')}}</h1>
-                        <h2>{{$t('Communications')}}</h2>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo"><img src="@/assets/shepel.jpg" alt="profile"></div>
-                    <div class="content">
-                        <h1 class="gradient-text">{{$t('Alex (Shepel)')}}</h1>
-                        <h2>CEO</h2>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo"><img src="@/assets/valera.jpg" alt="profile"></div>
-                    <div class="content">
-                        <h1 class="gradient-text">{{$t('Valera')}}</h1>
-                        <h2>{{$t('Software Engineer')}}</h2>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo"><img src="@/assets/dmytro.jpg" alt="profile"></div>
-                    <div class="content">
-                        <h1 class="gradient-text">{{$t('Dmytro')}}</h1>
-                        <h2>{{$t('Marketing')}}</h2>
+                        <h2>{{$t('CBDO')}}</h2>
                     </div>
                 </div>
                 <div class="item">
                     <div class="photo"><img src="@/assets/den.jpg" alt="profile"></div>
                     <div class="content">
                         <h1 class="gradient-text">{{$t('Denys')}}</h1>
-                        <h2>{{$t('Human Resources')}}</h2>
+                        <h2>{{$t('CTO')}}</h2>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="photo"><img src="@/assets/viktoria.jpg" alt="profile"></div>
+                    <div class="content">
+                        <h1 class="gradient-text">{{$t('Viktoria')}}</h1>
+                        <h2>{{$t('Community Manager')}}</h2>
                     </div>
                 </div>
             </div>
@@ -63,6 +56,11 @@ export default {
 </script>
 
 <style scoped>
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 5rem 0 5rem;
+}
 .heading {
 }
 

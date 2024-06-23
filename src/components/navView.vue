@@ -2,7 +2,7 @@
     <div class="nav">
         <div class="nav-logo">
             <a href="#">
-                <img src="@/assets/logo-light.png" />
+                <img src="@/assets/logo.png" />
             </a>
         </div>
 
@@ -61,15 +61,16 @@ export default {
 .nav {
     max-width: 1200px;
     margin: auto;
-    padding: 2rem;
+    padding: 0 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    border-bottom: 1px solid var(--cyan);
 }
 
 .nav-logo {
-    max-width: 100px;
+    max-width: 200px;
 }
 
 .nav-links {
