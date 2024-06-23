@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+:root {
+    --text: #000;
+    --text-soft: #11292f;
+    --bg: #f9f9f9;
+    --bg-soft: #ccc;
+    --dark-bg: #001C30;
+
+    --card: #1f2627;
+    --card-hover: #00747c;
+    --card-border: #000;
+
+    --aqua: rgb(7, 204, 231);
+    --cyan: rgb(47 181 208);
+
+    --text-gradient: linear-gradient(90deg, rgba(11, 129, 255, 1) 0%, rgba(7, 201, 255, 1) 74%, rgba(0, 218, 255, 1) 100%);
+    --text-gradient-variant: linear-gradient(90deg, rgba(62, 155, 255, 1) 0%, rgba(76, 229, 255, 1) 100%);
+
+}
+
+.gradient-text {
+    background-color: var(--text);
+    background-image: var(--text-gradient);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.gradient-text.variant {
+    background-image: var(--text-gradient-variant);
+}
+
+#app {
+    font-family: "Noto Serif Variable", Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--text);
+    background-color: var(--bg);
+    overflow: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--bg);
+}
+
+a.active {
+    background-color: var(--text);
+    background-image: var(--text-gradient-variant);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+span.transparent {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px var(--text);
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 1.05rem;
+    color: var(--bg);
+    background-color: rgb(7, 204, 231);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(30, 229, 255);
+}
+
+.btn.primary {
+    padding: 1rem 2rem;
+    font-size: 1.05rem;
+    color: var(--bg);
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn.primary:hover {
+    background-color: rgb(37, 37, 253);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 5rem;
+}
+
+.container-wide {
+    max-width: 90vw;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.heading {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2.23rem;
+    font-weight: 600;
+}
+
+.subHeading {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.blur {
+    position: absolute;
+    box-shadow: 0 0 3px 50px rgb(37, 210, 253);
+    margin: -2em 7em;
+    z-index: -100;
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 800px) {
+    .container {
+        padding: 2rem 2rem;
+    }
+
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {}
